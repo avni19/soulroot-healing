@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soulroot Healing — Unlock Your Positive Growth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ══ NAV ══ -->
+  <nav id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">Soul<span>root</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#testimonials">Stories</a></li>
+        <li><a href="#booking" class="nav-cta">Book a Session</a></li>
+      </ul>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about"        onclick="closeMenu()">About</a>
+    <a href="#services"     onclick="closeMenu()">Services</a>
+    <a href="#process"      onclick="closeMenu()">Process</a>
+    <a href="#testimonials" onclick="closeMenu()">Stories</a>
+    <a href="#booking"      onclick="closeMenu()">Book a Session</a>
+  </div>
+
+  <!-- ══ HERO ══ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="container" style="display:contents;">
+      <div class="hero-left container">
+        <p class="hero-eyebrow">Holistic Healing &amp; Transformation</p>
+        <h1>Unlock Your<br><em>Positive Growth.</em></h1>
+        <p class="hero-sub">
+          Gentle, rooted guidance to help you realign with abundance, clarity, and the life your soul has always known.
+        </p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn-primary">
+            Begin Your Journey
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#services" class="btn-ghost">Explore Services</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">850+</div>
+            <div class="stat-label">Lives Transformed</div>
+          </div>
+          <div>
+            <div class="stat-num">12</div>
+            <div class="stat-label">Years of Practice</div>
+          </div>
+          <div>
+            <div class="stat-num">98%</div>
+            <div class="stat-label">Client Satisfaction</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-orb">
+          <svg width="340" height="340" viewBox="0 0 340 340" fill="none" xmlns="http://www.w3.org/2000/svg"
+               style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);opacity:0.5;">
+            <path d="M170 340 Q165 280 155 220 Q145 160 160 100" stroke="#7A8C6A" stroke-width="2" fill="none"/>
+            <path d="M170 340 Q175 280 185 220 Q195 160 180 100" stroke="#7A8C6A" stroke-width="2" fill="none"/>
+            <path d="M160 200 Q120 180 100 150 Q130 155 155 175" fill="#B5C4A8" opacity="0.8"/>
+            <path d="M155 240 Q105 230 85 200 Q120 208 153 225" fill="#7A8C6A" opacity="0.6"/>
+            <path d="M158 165 Q118 140 108 108 Q138 120 160 148" fill="#B5C4A8" opacity="0.7"/>
+            <path d="M180 200 Q220 180 240 150 Q210 155 185 175" fill="#B5C4A8" opacity="0.8"/>
+            <path d="M185 240 Q235 230 255 200 Q220 208 187 225" fill="#7A8C6A" opacity="0.6"/>
+            <path d="M182 165 Q222 140 232 108 Q202 120 180 148" fill="#B5C4A8" opacity="0.7"/>
+            <ellipse cx="170" cy="90" rx="18" ry="25" fill="#C47A55" opacity="0.5" transform="rotate(-10 170 90)"/>
+            <ellipse cx="150" cy="85" rx="14" ry="22" fill="#D4956A" opacity="0.4" transform="rotate(-30 150 85)"/>
+            <ellipse cx="190" cy="85" rx="14" ry="22" fill="#D4956A" opacity="0.4" transform="rotate(30 190 85)"/>
+            <circle cx="170" cy="78" r="8" fill="#C9A84C" opacity="0.6"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ MARQUEE ══ -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-item"><span class="marquee-dot"></span>Money Flow</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Career Growth</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Health &amp; Vitality</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Emotional Clarity</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Relationship Healing</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Inner Peace</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Abundance Mindset</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Spiritual Growth</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Money Flow</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Career Growth</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Health &amp; Vitality</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Emotional Clarity</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Relationship Healing</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Inner Peace</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Abundance Mindset</div>
+      <div class="marquee-item"><span class="marquee-dot"></span>Spiritual Growth</div>
+    </div>
+  </div>
+
+  <!-- ══ ABOUT ══ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-image-card">
+            <svg width="260" height="300" viewBox="0 0 260 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M130 300 Q125 240 115 180 Q105 120 120 60" stroke="#7A8C6A" stroke-width="2.5" fill="none"/>
+              <path d="M130 300 Q135 240 145 180 Q155 120 140 60" stroke="#7A8C6A" stroke-width="2.5" fill="none"/>
+              <path d="M118 180 Q70 165 45 130 Q82 138 116 162" fill="#B5C4A8"/>
+              <path d="M114 220 Q58 212 30 178 Q72 188 113 207" fill="#7A8C6A"/>
+              <path d="M142 180 Q190 165 215 130 Q178 138 144 162" fill="#B5C4A8"/>
+              <path d="M146 220 Q202 212 230 178 Q188 188 147 207" fill="#7A8C6A"/>
+              <path d="M120 140 Q75 118 60 82 Q95 96 122 126" fill="#B5C4A8" opacity="0.7"/>
+              <path d="M140 140 Q185 118 200 82 Q165 96 138 126" fill="#B5C4A8" opacity="0.7"/>
+              <ellipse cx="130" cy="48" rx="20" ry="28" fill="#C47A55" opacity="0.6"/>
+              <ellipse cx="110" cy="42" rx="16" ry="24" fill="#D4956A" opacity="0.45"/>
+              <ellipse cx="150" cy="42" rx="16" ry="24" fill="#D4956A" opacity="0.45"/>
+              <circle cx="130" cy="35" r="10" fill="#C9A84C" opacity="0.65"/>
+            </svg>
+          </div>
+          <div class="about-badge">
+            <div class="about-badge-num">12+</div>
+            <div class="about-badge-text">Years Healing</div>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <p class="section-label reveal">About Soulroot</p>
+          <h2 class="reveal reveal-delay-1">Rooted in <em>compassion,</em><br>guided by wisdom.</h2>
+          <p class="reveal reveal-delay-2">
+            I'm Maya Anand — a certified energy healer, intuitive guide, and transformation coach. For over a decade, I've helped hundreds of souls break through invisible barriers holding them back from true prosperity, health, and joy.
+          </p>
+          <p class="reveal reveal-delay-2">
+            My approach blends ancient healing traditions with modern psychology, creating a deeply personal, holistic experience that meets you exactly where you are — and helps you grow into who you're meant to be.
+          </p>
+          <div class="about-values reveal reveal-delay-3">
+            <span class="value-chip"><span class="value-chip-dot"></span>Certified Energy Healer</span>
+            <span class="value-chip"><span class="value-chip-dot"></span>Trauma-Informed</span>
+            <span class="value-chip"><span class="value-chip-dot"></span>Holistic Approach</span>
+            <span class="value-chip"><span class="value-chip-dot"></span>Confidential &amp; Safe</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SERVICES ══ -->
+  <section id="services">
+    <div class="container">
+      <div class="services-header">
+        <div class="reveal">
+          <p class="section-label">What I Offer</p>
+          <h2>Healing for every<br>part of <em>your life.</em></h2>
+        </div>
+        <p class="reveal reveal-delay-1">
+          Each service is thoughtfully designed to address a different dimension of your wellbeing. Whether you're seeking financial freedom, renewed purpose, or physical vitality — there's a path for you.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <span class="service-num">01</span>
+          <div class="service-icon">💰</div>
+          <h3>Money Flow Healing</h3>
+          <p>Release deep-rooted money blocks, scarcity mindsets, and inherited financial fears. Open the channels for true abundance to flow freely into your life.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-num">02</span>
+          <div class="service-icon">🌱</div>
+          <h3>Career Growth Activation</h3>
+          <p>Align your work with your soul's calling. Overcome imposter syndrome, unlock hidden potential, and step boldly into leadership and purpose.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-num">03</span>
+          <div class="service-icon">🌿</div>
+          <h3>Health &amp; Vitality Reset</h3>
+          <p>Restore balance to body, mind, and spirit. Address the energetic roots of chronic tension, fatigue, and emotional exhaustion for lasting renewal.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">04</span>
+          <div class="service-icon">💞</div>
+          <h3>Relationship Healing</h3>
+          <p>Heal attachment wounds, release toxic patterns, and cultivate deeper, more nourishing connections with yourself and the people you love most.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-num">05</span>
+          <div class="service-icon">🔮</div>
+          <h3>Intuition &amp; Clarity Sessions</h3>
+          <p>Quiet the mental noise and reconnect with your inner compass. Receive intuitive guidance on life's most important crossroads and decisions.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-num">06</span>
+          <div class="service-icon">✨</div>
+          <h3>Full Transformation Program</h3>
+          <p>A 12-week deeply immersive journey across all areas of life. For those ready for a complete, lasting transformation from the inside out.</p>
+          <span class="service-link">Learn more →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PROCESS ══ -->
+  <section id="process">
+    <div class="container">
+      <div class="process-layout">
+        <div class="process-left">
+          <p class="section-label reveal">How It Works</p>
+          <h2 class="reveal reveal-delay-1">A gentle path<br>to <em>transformation.</em></h2>
+          <p class="reveal reveal-delay-2">Every journey is unique, but the path is clear. Here's what you can expect when you work with me.</p>
+          <a href="#booking" class="btn-primary reveal reveal-delay-3" style="display:inline-flex; margin-top:0.5rem;">
+            Start Today
+            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="process-steps">
+          <div class="process-step reveal">
+            <div class="step-num">01</div>
+            <div class="step-body">
+              <h4>Discovery Call</h4>
+              <p>We begin with a free 20-minute call to understand where you are, what you're seeking, and which path is the right fit for your unique needs.</p>
+            </div>
+          </div>
+          <div class="process-step reveal reveal-delay-1">
+            <div class="step-num">02</div>
+            <div class="step-body">
+              <h4>Energetic Assessment</h4>
+              <p>A deep dive into your energetic landscape — identifying the root patterns, blocks, and opportunities that are shaping your current reality.</p>
+            </div>
+          </div>
+          <div class="process-step reveal reveal-delay-2">
+            <div class="step-num">03</div>
+            <div class="step-body">
+              <h4>Healing Sessions</h4>
+              <p>Personalised sessions combining energy work, guided meditation, somatic release, and practical tools tailored to your goals.</p>
+            </div>
+          </div>
+          <div class="process-step reveal reveal-delay-3">
+            <div class="step-num">04</div>
+            <div class="step-body">
+              <h4>Integration &amp; Support</h4>
+              <p>Ongoing integration practices, check-ins, and resources to anchor your transformation and help it bloom in every area of your life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TESTIMONIALS ══ -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="testimonials-header reveal">
+        <p class="section-label">Stories of Transformation</p>
+        <h2>What my clients <em>say.</em></h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Within 3 months of Money Flow Healing, I landed a promotion I'd been chasing for years and finally felt at peace with my finances. Maya has a gift that's impossible to describe."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#D4BEA0;">P</div>
+            <div>
+              <div class="testi-name">Priya Mehta</div>
+              <div class="testi-service">Money Flow Healing</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"I came to Maya burnt out and completely lost. The Career Growth sessions reignited something I thought was gone forever. I now wake up excited about my work every single day."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#B5C4A8;">R</div>
+            <div>
+              <div class="testi-name">Rohan Desai</div>
+              <div class="testi-service">Career Growth Activation</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"The Health &amp; Vitality Reset changed my relationship with my body completely. Chronic pain I'd lived with for years began to ease. I feel like myself again — maybe for the first time."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#C9A84C;">A</div>
+            <div>
+              <div class="testi-name">Anita Sharma</div>
+              <div class="testi-service">Health &amp; Vitality Reset</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"I was sceptical going in. By session two, something had already shifted. Maya holds a space of such deep safety — I was able to release patterns I'd been carrying my entire adult life."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#D4956A;">S</div>
+            <div>
+              <div class="testi-name">Sana Qureshi</div>
+              <div class="testi-service">Relationship Healing</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"The Full Transformation Program was the best investment I've ever made in myself. Every single area of my life has improved — career, relationships, health, finances. Deeply, deeply grateful."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#B09070;">K</div>
+            <div>
+              <div class="testi-name">Kavya Nair</div>
+              <div class="testi-service">Full Transformation Program</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Maya's Intuition sessions gave me the clarity I needed to leave a toxic job and start my own business. Six months later I've never been happier or more successful."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:#C4A882;">V</div>
+            <div>
+              <div class="testi-name">Vikram Joshi</div>
+              <div class="testi-service">Intuition &amp; Clarity Sessions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ BOOKING ══ -->
+  <section id="booking">
+    <div class="container">
+      <div class="booking-wrap">
+        <div class="booking-left">
+          <p class="section-label reveal">Book a Session</p>
+          <h2 class="reveal reveal-delay-1">Your transformation<br>starts <em>here.</em></h2>
+          <p class="reveal reveal-delay-2">
+            Ready to take the first step? Fill in the form and I'll personally reach out within 24 hours to schedule your session or discovery call.
+          </p>
+          <div class="contact-items reveal reveal-delay-3">
+            <div class="contact-item"><div class="contact-icon">📍</div><span>Mumbai, India · Online sessions worldwide</span></div>
+            <div class="contact-item"><div class="contact-icon">✉️</div><span>hello@soulroothealing.com</span></div>
+            <div class="contact-item"><div class="contact-icon">📞</div><span>+91 98765 43210</span></div>
+            <div class="contact-item"><div class="contact-icon">🕐</div><span>Mon–Sat, 9am–7pm IST</span></div>
+          </div>
+        </div>
+
+        <div class="form-card reveal reveal-delay-1">
+          <div id="formContent">
+            <p class="form-title">Request Your Session</p>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Maya" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Anand" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" placeholder="+91 98765 43210" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service of Interest</label>
+              <select id="service">
+                <option value="" disabled selected>Choose a service…</option>
+                <option>Money Flow Healing</option>
+                <option>Career Growth Activation</option>
+                <option>Health &amp; Vitality Reset</option>
+                <option>Relationship Healing</option>
+                <option>Intuition &amp; Clarity Sessions</option>
+                <option>Full Transformation Program</option>
+                <option>Not sure — help me decide</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell me a little about where you are</label>
+              <textarea id="message" placeholder="What's brought you here? What would you most like to change or heal?"></textarea>
+            </div>
+            <button class="form-submit" onclick="submitForm()">Send My Request</button>
+            <p class="form-note">🔒 All sessions are strictly confidential. I respond within 24 hours.</p>
+          </div>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">🌿</div>
+            <h3>Your message has been received.</h3>
+            <p>Thank you for reaching out. I'll personally reply within 24 hours to schedule your session. Take a breath — your transformation is already beginning.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Soul<span>root</span></h3>
+          <p>Rooted in ancient wisdom, guided by compassion. Helping you grow into the fullest, most radiant expression of yourself.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Money Flow</a></li>
+            <li><a href="#services">Career Growth</a></li>
+            <li><a href="#services">Health &amp; Vitality</a></li>
+            <li><a href="#services">Relationships</a></li>
+            <li><a href="#services">Intuition Sessions</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about">About Maya</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Client Stories</a></li>
+            <li><a href="#booking">Book a Session</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Soulroot Healing. All rights reserved.</span>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">✦</a>
+          <a href="#" class="social-link" aria-label="Facebook">f</a>
+          <a href="#" class="social-link" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
